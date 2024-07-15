@@ -6,21 +6,20 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24 md:pt-0"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row space-y-8 md:space-y-0">
+        <div className="flex flex-col justify-center h-full text-center md:text-left">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             Bhushan Chavan
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a passionate competitive programmer and full stack web developer. I have good ratings across various coding platforms like
-            Codechef and Leetcode. Also, I am a full stack web developer and work on the MERN stack.
+            I am a passionate competitive programmer and full stack web developer. I have good ratings across various coding platforms like Codechef and Leetcode. Also, I am a full stack web developer and work on the MERN stack.
           </p>
 
           <div>
             <a
-              href="https://drive.google.com/file/d/1ZvQqx8S6-NzG4SaMG09iw159ctauCeAW/view?usp=drivesdk"  
+              href="https://drive.google.com/file/d/1ZvQqx8S6-NzG4SaMG09iw159ctauCeAW/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
